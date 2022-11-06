@@ -12,11 +12,11 @@ Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/te
 layout: default
 modal-id: 1
 date: 2020-01-18
-img: cabin.png
-alt: image-alt
-project-date: January 2020
+img: Manchester_United_FC_crest.svg.png
+alt: It is the crest of Manchester United Futbol club
+<!-- project-date: January 2020
 client: The Client
-category: Web Development
+category: Web Development -->
 description: The description of the project
 
 ---
