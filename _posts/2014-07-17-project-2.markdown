@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 4
-date: 2014-07-17
+date: 2022-11-05
 img: Board Games.jpeg
 alt: Image with board games
 # project-date: April 2014
@@ -9,6 +9,7 @@ alt: Image with board games
 # category: Web Development
 description: I am a big fan of playing board games. I have a closet full of games that both me and my wife have enjoyed playing. See the list of a few of the games that we have found joy playing.
 ---
+
 ---
 # import module
 from tabulate import tabulate
