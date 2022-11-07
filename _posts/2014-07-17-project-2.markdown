@@ -8,15 +8,16 @@ alt: Image with board games
 # client: Start Bootstrap
 # category: Web Development
 description: I am a big fan of playing board games. I have a closet full of games that both me and my wife have enjoyed playing. 
----
-# import module
-from tabulate import tabulate
 
-# assign data
-mydata = [["Axis and Allies", "Quacks of Quedlinburg", "Villainous"], ["Quicks", "Betrayal at House on the Hill", "UNO Flip"], ["Risk", "Red Dragon Inn", "5 Crowns"]]
+    # import module
+    from tabulate import tabulate
 
-# Create header
-head = ["Dice", "Board", "Card"]
+    # assign data
+    mydata = [["Axis and Allies", "Quacks of Quedlinburg", "Villainous"], ["Quicks", "Betrayal at House on the Hill", "UNO Flip"], ["Risk", "Red Dragon Inn", "5 Crowns"]]
 
-# display table
-print(tabulate(mydata, headers=head, tablefmt="grid"))
+    # Create header
+    head = ["Dice", "Board", "Card"]
+
+    # display table
+    print(tabulate(mydata, headers=head, tablefmt="grid"))
+---    
