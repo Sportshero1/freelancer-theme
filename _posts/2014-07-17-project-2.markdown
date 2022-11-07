@@ -8,7 +8,8 @@ alt: Image with board games
 # client: Start Bootstrap
 # category: Web Development
 description: I am a big fan of playing board games. I have a closet full of games that both me and my wife have enjoyed playing. See the list of a few of the games that we have found joy playing.
-
+---
+---
 # import module
 from tabulate import tabulate
 
