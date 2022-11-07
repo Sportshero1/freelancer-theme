@@ -2,10 +2,21 @@
 layout: default
 modal-id: 4
 date: 2014-07-17
-img: cake.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+img: Board Games.jpeg
+alt: Image with board games
+# project-date: April 2014
+# client: Start Bootstrap
+# category: Web Development
+description: I am a big fan of playing board games. I have a closet full of games that both me and my wife have enjoyed playing. 
 ---
+# import module
+from tabulate import tabulate
+
+# assign data
+mydata = [["Axis and Allies", "Quacks of Quedlinburg", "Villainous"], ["Quicks", "Betrayal at House on the Hill", "UNO Flip"], ["Risk", "Red Dragon Inn", "5 Crowns"]]
+
+# Create header
+head = ["Dice", "Board", "Card"]
+
+# display table
+print(tabulate(mydata, headers=head, tablefmt="grid"))
